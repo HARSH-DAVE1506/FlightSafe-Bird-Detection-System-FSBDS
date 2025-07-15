@@ -106,12 +106,12 @@ npm start
 Below are screenshots showcasing the user interface and functionality of the Bird Risk Detection System:
 
 - **Dashboard Interface**:  
-  <img width="1475" height="467" alt="image" src="https://github.com/user-attachments/assets/7471c9d0-fa9a-4975-ba54-e6f8286bb064" />
-  
+  <img width="1475" height="467" alt="Screenshot 2025-07-15 173601" src="https://github.com/user-attachments/assets/ae9ccc5c-435e-45ac-a74a-5677f4b93600" />
+
   *Description*: The main dashboard displaying the upload section and detection results.
 
 - **Risk Assessment Panel**:  
-  <img width="1486" height="850" alt="image" src="https://github.com/user-attachments/assets/8820cf7c-ff36-4a06-a5d4-839e12c9190d" />
+  <img width="1486" height="850" alt="Screenshot 2025-07-15 173630" src="https://github.com/user-attachments/assets/a9cacdc1-2c00-4262-a29e-e9c2d411c9dc" />
   
   *Description*: The panel showing the overall risk level and species detected.
 
@@ -119,7 +119,8 @@ Below are screenshots showcasing the user interface and functionality of the Bir
 This image demonstrates the output of the bird detection and classification model on a sample frame:
 
 - **Classified Frame**:  
-(https://github.com/user-attachments/assets/c66bc945-9049-4388-94b9-2b3e9c5b9732)
+![classified_image](https://github.com/user-attachments/assets/581e476d-90ed-4346-9de7-1e968fdf17b6)
+
 
   *Description*: A sample frame with bounding boxes. 
 
