@@ -6,6 +6,9 @@ Bird Detection & Risk Assessment: AI-powered Airport Safety Monitoring
 
 This project is a prototype AI-powered system to detect birds from video feeds, classify their species, and estimate a risk level for airport flight operations.
 
+## ⚠️ Important Tip Before You Start
+**Use a video shorter than 5 seconds for testing.** Longer videos will significantly increase detection time and may heavily utilize your CPU/GPU resources, which could potentially overheat or stress your machine.
+
 ## Features
 
 - **Bird Detection**: Custom-trained YOLOv8m model.
@@ -96,14 +99,6 @@ npm start
 | Large birds (bbox area > 50,000 px²) or >5 birds | **High** |
 | Medium birds (20,000 < bbox ≤ 50,000 px²) or 3–5 birds | **Moderate** |
 | Small birds or ≤3 birds | **Low** |
-
-## Risk Index Logic
-
-| Condition | Risk Level |
-|-----------|------------|
-| Large birds (bbox area > 50,000 px²) or >5 birds | High |
-| Medium birds (20,000 < bbox ≤ 50,000 px²) or 3–5 birds | Moderate |
-| Small birds or ≤3 birds | Low |
 
 ## Future Work
 
