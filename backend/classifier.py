@@ -4,7 +4,6 @@ import onnxruntime as rt
 import os
 import asyncio
 
-
 session = rt.InferenceSession("models/efficientnet_b0_nabirds.onnx")
 input_name = session.get_inputs()[0].name
 

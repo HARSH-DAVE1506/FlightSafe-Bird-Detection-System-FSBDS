@@ -14,7 +14,7 @@ function App() {
   const processVideo = async () => {
     if (!video) return alert("Please upload a video first");
     setIsProcessing(true);
-    setResults(null); // ✅ Clear previous results
+    setResults(null); 
 
     const formData = new FormData();
     formData.append("file", video);

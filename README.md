@@ -55,8 +55,13 @@ BIRD-RISK-DETECTION/
 ### 1. Clone Repository
 
 ```bash
+<<<<<<< HEAD
 git clone https://github.com/your-username/bird-risk-detection.git
 cd bird-risk-detection
+=======
+git clone https://github.com/HARSH-DAVE1506/FlightSafe-Bird-Detection-System-FSBDS.git
+cd FlightSafe-Bird-Detection-System-FSBDS-
+>>>>>>> 8026762926c5fbca346d27d3465006793776419d
 ```
 
 ### 2. Backend Setup
@@ -100,6 +105,32 @@ npm start
 | Medium birds (20,000 < bbox ≤ 50,000 px²) or 3–5 birds | **Moderate** |
 | Small birds or ≤3 birds | **Low** |
 
+<<<<<<< HEAD
+=======
+## Demonstration Assets
+
+### System Screenshots
+Below are screenshots showcasing the user interface and functionality of the Bird Risk Detection System:
+
+- **Dashboard Interface**:  
+  <img width="1475" height="467" alt="image" src="https://github.com/user-attachments/assets/7471c9d0-fa9a-4975-ba54-e6f8286bb064" />
+  
+  *Description*: The main dashboard displaying the upload section and detection results.
+
+- **Risk Assessment Panel**:  
+  <img width="1486" height="850" alt="image" src="https://github.com/user-attachments/assets/8820cf7c-ff36-4a06-a5d4-839e12c9190d" />
+  
+  *Description*: The panel showing the overall risk level and species detected.
+
+### Model Output Image
+This image demonstrates the output of the bird detection and classification model on a sample frame:
+
+- **Classified Frame**:  
+![classified_image](https://github.com/user-attachments/assets/c66bc945-9049-4388-94b9-2b3e9c5b9732)
+
+  *Description*: A sample frame with bounding boxes. 
+
+>>>>>>> 8026762926c5fbca346d27d3465006793776419d
 ## Future Work
 
 - Parallel Processing Pipeline (async batch inference).

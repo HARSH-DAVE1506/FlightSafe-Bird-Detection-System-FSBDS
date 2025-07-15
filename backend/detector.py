@@ -34,7 +34,7 @@ async def detect_birds(video_path, save_frame_path):
         if bird_count > max_birds:
             max_birds = bird_count
             max_frame = frame.copy()
-            max_detections = detections  # ✅ Store best frame's detections
+            max_detections = detections  
 
         frame_idx += 1
 

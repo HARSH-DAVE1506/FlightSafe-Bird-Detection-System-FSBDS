@@ -32,8 +32,7 @@ async def process_video(file: UploadFile):
         f.write(await file.read())
 
     max_frame_path = os.path.join(PROCESSED_DIR, "max_birds_frame.jpg")
-
-    # ✅ Now using real detections
+    
     frame_stats, max_frame_path, max_birds, detections = await detect_birds(video_path, max_frame_path)
 
     frame = cv2.imread(max_frame_path)
@@ -47,7 +46,7 @@ async def process_video(file: UploadFile):
     return JSONResponse({
         "frame_stats": frame_stats,
         "max_birds": max_birds,
-        "species_list": [{"name": s[0]} for s in species_list],  # ✅ Dropped confidence as you wanted
+        "species_list": [{"name": s[0]} for s in species_list],  
         "overall_risk": overall_risk,
         "classified_image_url": f"http://127.0.0.1:8000/data/processed/classified_image.jpg"
     })
