@@ -6,7 +6,7 @@ Bird Detection & Risk Assessment: AI-powered Airport Safety Monitoring
 
 This project is a prototype AI-powered system to detect birds from video feeds, classify their species, and estimate a risk level for airport flight operations.
 
-## ⚠️ Important Tip Before You Start
+## ⚠️⚠️⚠️ Important Tip Before You Start⚠️⚠️⚠️
 **Use a video shorter than 5 seconds for testing.** Longer videos will significantly increase detection time and may heavily utilize your CPU/GPU resources, which could potentially overheat or stress your machine.
 
 ## Features
